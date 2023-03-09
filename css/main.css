@@ -1,4 +1,4 @@
-/* :root {
+:root {
     --primery-text-color: #434455;
     --text-logo-base-btn-hero: #4D5AE5;
     --text-logo-header:#2E2F42;
@@ -86,12 +86,20 @@ img {
     }
   }
 .page-header {
-    position: relative;
-    background-color: var(--clr-base);
-    border-bottom: 1px solid var(--border-header-cards); 
+  background-color: var(--clr-base);
+  border-bottom: 1px solid var(--border-header-cards); 
 }
-.page-header > .container {
-  display: flex;
+@media screen and (max-width: 767px) {
+  .page-header {
+    padding: 24px 16px;
+}
+}
+@media screen and (max-width: 767px) {
+  .page-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 }
 .logo {
   display: inline-block;
@@ -107,59 +115,35 @@ img {
 .logo-header {
   color: var(--text-logo-header);
 }
-.menu-button {
-  min-height: 24px;
-  min-width: px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  margin: 0;
-  padding: 0;
-  background-color: transparent;
-  cursor: pointer;
-  border: none;
-  border-radius: 50%;
-  outline: none;
-  
-  @media screen and (min-width:768px) {
+@media screen and (max-width: 767px) {
+  .menu-toggle {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+}
+@media screen and (max-width: 767px) {
+  .mobile-icon {
+    display: inline-block;
+    width: 32px;
+    height: 22px;
+    stroke: #2E2F42;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 3px;
+}
+}
+@media screen and (max-width: 767px) {
+  .site-nav, .page-contacts {
     display: none;
-  }
 }
-/* .menu-button .icon-cross {
-  display: none;
 }
-.menu-button.is-open .icon-cross {
-  display: block;
-}
-.menu-button.is-open .icon-menu {
-  display: none;
-}
-.nenu-container {
-  background-color: var(--clr-base);
-  padding: 0;
-  text-align: center;
-  font-size: inherit;
-
-  @media screen and (max-width: 767px) {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-
-  &.is-open {
-    display: block;
-    }
-  }
-  @media screen and (min-width: 768px) {
-    display: flex;
-  }
-}
-/* Стили для таблетки ???*/
 
 
 
 
 
- */
+
+

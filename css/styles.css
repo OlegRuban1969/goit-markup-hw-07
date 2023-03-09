@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --primery-text-color: #434455;
     --text-logo-base-btn-hero: #4D5AE5;
     --text-logo-header:#2E2F42;
@@ -68,20 +68,20 @@ img {
     margin: 0 auto;
     max-width: 1158px;
     padding: 0 15px;
-}
+} */
 /* Шапка */
-.page-header {
+/* .page-header {
     background-color: var(--clr-base);
     border-bottom: 1px solid var(--border-header-cards); 
-}
-.page-header > .container {
+} */
+/* .page-header > .container {
     display: flex;
   }
 .page-nav {
     display: flex;
-}
+} */
 /* logo */
-.logo {
+/* .logo {
     display: inline-block;
     font-family: 'Raleway';
     font-weight: 800;
@@ -91,11 +91,11 @@ img {
     text-transform: uppercase;
     text-decoration: none;
     color: var(--text-logo-base-btn-hero);
-} */
+}  */
 /* logo  хедер Studio*/
-.logo-header {
+/* .logo-header {
     color: var(--text-logo-header);
-} 
+}  */
 /* logo футер  Studio*/
 .logo-footer {
     color: var(--clr-logoftr-base-team);
