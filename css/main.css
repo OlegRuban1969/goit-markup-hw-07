@@ -85,6 +85,78 @@ img {
       width: 1158px;
     }
   }
+.page-header {
+    position: relative;
+    background-color: var(--clr-base);
+    border-bottom: 1px solid var(--border-header-cards); 
+}
+.page-header > .container {
+  display: flex;
+}
+.logo {
+  display: inline-block;
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.333;
+  padding: 24px 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--text-logo-base-btn-hero);
+}
+.logo-header {
+  color: var(--text-logo-header);
+}
+.menu-button {
+  display: inline-flex;
+  right: 24px;
+  top: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  
+  @media screen and (min-width:768px) {
+    display: none;
+  }
+}
+.menu-button .icon-cross {
+  display: none;
+}
+.menu-button.is-open .icon-cross {
+  display: block;
+}
+.menu-button.is-open .icon-menu {
+  display: none;
+}
+.nenu-container {
+  background-color: var(--clr-base);
+  padding: 0;
+  text-align: center;
+  font-size: inherit;
+
+  @media screen and (max-width: 767px) {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+
+  &.is-open {
+    display: block;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+/* Стили для таблетки ???*/
+}
+}
+
 
 
 
