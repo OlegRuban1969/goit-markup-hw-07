@@ -166,7 +166,7 @@ img {
     color: var(--clr-header-h-f);
 } */
 /* Герой */
-.hero {
+/* .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -180,8 +180,8 @@ img {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
-  }
-  .hero-title {
+  } */
+  /* .hero-title {
     margin: 0 auto 48px;
     text-align: center;
     font-weight: 700;
@@ -190,8 +190,8 @@ img {
     letter-spacing: 0.02em;
     max-width: 496px;
     color: var(--hero-color);
-  }
-  .hero-btn {
+  } */
+  /* .hero-btn {
     padding: 16px 32px;
     margin: 0 auto 0;
     font-family: inherit;
@@ -215,9 +215,9 @@ img {
   .hero-btn:focus {
     color: var(--hero-color);
     background-color: var(--clr-btn-hero-h-f);
-  }
+  } */
   /* Секция 1 Feature */
-  .feature {
+  /* .feature {
     padding-top: 120px;
     padding-bottom: 120px;
   }
@@ -259,112 +259,9 @@ img {
         display: none;
       }
     } */
-  .work {
-    padding-bottom: 120px;
-  }
-  .work-ul {
-    display: flex;
-  }
-  .work-title {
-    padding-top: 0;
-    margin-bottom: 72px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.111;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    color: var(--clr-txt-sec-title);
-  }
-  .work-item {
-    margin-right: 24px;
-  }
-  .work-item:nth-child(3) {
-    margin-right: 0;
-  }
-  /* Секция 3 Team */
-  .team {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    background-color: var(--clr-logoftr-base-team);
-  }
-  .team-ul {
-    display: flex;
-  }
-  .team-list {
-    margin-right: 24px;
-    flex-basis: calc((100% - 3 * 24px) / 4);
-    background-color: var(--clr-base);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;
-  }
-  .team-list:nth-child(4) {
-    margin-right: 0;
-  }
-  .team-card-prof {
-    display: block;
-    text-align: center;
-    padding: 32px 16px 32px 16px;
-  }
-  .team-name {
-    margin-bottom: 72px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.111;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    color: var(--clr-txt-sec-title);
-  }
-  .team-list-title {
-    margin-bottom: 8px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--clr-txt-sec-title);
-  }
-  .team-list-text {
-    margin-bottom: 8px;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--primery-text-color);
-  }
-  .team-scl-ul {
-    display: flex;
-  }
-  .team-scl-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 24px;
-  }
-  .team-scl-list:nth-child(4) {
-    margin-right: 0;
-  }
-  .team-scl-link:hover,
-  .team-scl-link:focus {
-    background-color: var(--success-team);
-  }
-  .team-scl-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition-property: background-color;
-    transition-duration: var(--time-transition);
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    width: 40px;
-    height: 40px;
-    background-color: var(--back-team-social);
-    border-radius: 50%;
-  }
-  .team-scl-icon {
-    fill: var(--clr-base);
-  }
+ */
   /* Секция 4 Customers */
-  .customers {
+  /* .customers {
     padding-top: 120px;
     padding-bottom: 120px;
   }
@@ -532,7 +429,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--clr-base);
   }
-  
+   */
   /* ПОРТФОЛІО */
   /* Filters */
   .filters-cards {
