@@ -159,7 +159,7 @@
     position: relative;
   }
 
-  .current::after {
+  .link.current::after {
     position: absolute;
     display: block;
     content: "";
@@ -169,7 +169,9 @@
     border-radius: 2px;
     bottom: 0;
   }
-
+  .navigation .current {
+    color: var(--clr-header-h-f);
+}
   address {
     margin-left: auto;
   }
