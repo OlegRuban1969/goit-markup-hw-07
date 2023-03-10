@@ -208,6 +208,8 @@
     }
 
     .menu-container {
+      display: flex;
+      flex-direction: column;
       overflow: hidden;
       position: fixed;
       top: 0;
@@ -247,6 +249,10 @@
   display: flex;
   margin-bottom: 48px;
 } 
+.ad {
+  margin-bottom: 40px;
+}
+
 .tellink {
   color: var(--primery-text-color);
   transition-property: color;
@@ -270,7 +276,7 @@
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.navi-item .navig-link:hover, .navig-item .navig-link:focus {
+.naviп-item .navig-link:hover, .navig-item .navig-link:focus {
   color: var( --back-team-social);
 }
 .mobteam-scl-list {
