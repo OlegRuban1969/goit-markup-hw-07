@@ -301,11 +301,7 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.mobile-auth-nav .tellink:hover, .mobile-auth-nav .tellink:focus,
-.mobile-menu .maillink:hover, .mobile-menu .maillink:focus,
-.mobile-menu .navig-link:hover, .mobile-menu .navig-link:focus {
-  color: var( --back-team-social);
-}
+
 .menu-container .soc-med-list {
   display: flex;
   flex-wrap: wrap;

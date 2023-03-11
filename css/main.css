@@ -171,7 +171,10 @@
   }
   .navigation .current {
     color: var(--clr-header-h-f);
-}
+  }
+  .contacts .current {
+    color: var(--clr-header-h-f);
+  }
   address {
     margin-left: auto;
   }
@@ -278,8 +281,13 @@
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.naviп-item .navig-link:hover, .navig-item .navig-link:focus {
-  color: var( --back-team-social);
+.menu-nav .navig-link:hover,
+.menu-nav .navig-link:focus,
+.menu-contacts .tellink:hover,
+.menu-contacts .tellink:focus,
+.menu-contacts .maillink:hover,
+.menu-contacts .maillink:focus {
+  color: var(--clr-header-h-f);
 }
 .mobteam-scl-list {
   display: flex;
@@ -296,32 +304,42 @@
     }
   }
 
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .open-menu-button,
     .menu-container {
       display: none;
     }
   }
 
+@media screen and (min-width: 1200px) {
   .page-contacts {
     display: flex;
   }
-  .page-contacts .link {
-    display: inline-block;
-    transition-property: color;
-    transition-duration: var(--time-transition);
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 24px 0;
-    min-height: 24px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    font-style: normal;
-    text-decoration: none;
-    color: var(--clr-txt-address);
+}
+
+.page-contacts .link {
+  display: inline-block;
+  transition-property: color;
+  transition-duration: var(--time-transition);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 24px 0;
+  min-height: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  font-style: normal;
+  text-decoration: none;
+  color: var(--clr-txt-address);
   }
-  .page-contacts .link:hover,
-  .page-contacts .link:focus {
+
+.page-contacts .link:hover,
+.page-contacts .link:focus {
     color: var(--clr-header-h-f);
-  }
+}
+
   
+  
+
+
+
+
