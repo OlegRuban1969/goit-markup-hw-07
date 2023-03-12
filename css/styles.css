@@ -3,93 +3,6 @@
   color: var(--clr-logoftr-base-team);
 }
 
-/* Герой */
-.hero {
-  background-image: linear-gradient(
-  rgba(46, 47, 66, 0.7),
-  rgba(46, 47, 66, 0.7)),
-  url(../images/bg-hero.jpg), 
-  url(../images/dark-bg.jpg);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  padding-top: 188px;
-  padding-bottom: 188px;
-  text-align: center;
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.hero-title {
-  margin: 0 auto 48px;
-  text-align: center;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.071;
-  letter-spacing: 0.02em;
-  max-width: 496px;
-  color: var(--hero-color);
-}
-.hero-btn {
-  padding: 16px 32px;
-  margin: 0 auto 0;
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--hero-color);
-  background-color: var(--text-logo-base-btn-hero);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  transition-property: color, background-color;
-  transition-duration: var(--time-transition);
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.hero-btn:hover, .hero-btn:focus {
-  color: var(--hero-color);
-  background-color: var(--clr-btn-hero-h-f);
-}           
-/* Секция 1 Feature */
-.feature {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-.feature-ul {
-  display: flex;
-}
-.feature-list {
-  flex-basis: calc((100% - 3 * 24px) / 4);
-}
-.feature-list:not(:last-child) {
-  margin-right: 24px;
-}
-.feature-list-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--clr-txt-sec-title);
-}
-.feature-list-text {
-  margin-top: 8px;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--primery-text-color);
-}
-.feature-top {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 8px;
-  height: 112px;
-  background-color: var(--border-features   );
-}
-
 /* Секция 2 Working */
 .work {
   padding-bottom: 120px;
@@ -481,7 +394,7 @@
   letter-spacing: 0.02em;
   color: var(--primery-text-color);
 }
-/* Модальное окно */
+/* Модальное окно
 .backdrop {
   position: fixed;
   top: 0;
@@ -681,4 +594,4 @@
   border: none;
   outline: none;
   cursor: pointer;
-}
+} */
