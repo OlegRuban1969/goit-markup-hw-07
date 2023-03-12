@@ -952,7 +952,8 @@
     justify-content: center;
   }
   .cust-list {
-    min-width: 168px;
+    min-width: 190px;
+    min-height: 88px;
   }
 }
 
@@ -966,19 +967,22 @@
     column-gap: 24px;
     row-gap: 72px;
   }
+  .cust-list {
+    min-width: 168px;
+    min-height: 88px;
+    justify-content: center;
+  }
 }
-  .cust-icon {
+
+.cust-icon {
     fill: currentColor;
   } 
 
 @media screen and (min-width: 1200px) {
   .cust-list {
-    margin-right: 24px;
     width: calc((100% - 5 * 24px) / 6);
     height: 88px;
-  }
-  .cust-list:nth-child(6) {
-    margin-right: 0;
+    justify-content: center;
   }
 }
 
