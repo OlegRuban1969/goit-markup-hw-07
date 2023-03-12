@@ -3,54 +3,6 @@
   color: var(--clr-logoftr-base-team);
 }
 
-
-/* Секция 4 Customers */
-.customers {
-  padding-top: 120px;
-  padding-bottom: 120px;  
-}
-.cust-name {
-  margin-bottom: 72px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.111;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-  color: var(--clr-txt-sec-title);
-}
-.cust-ul {
-  display: flex;
-}
-.cust-list {
-  margin-right: 24px;
-  width: calc((100% - 5 * 24px) / 6);
-  height: 88px;
-}
-.cust-list:nth-child(6) {
-  margin-right: 0;
-}
-.cust-icon {
-  fill: currentColor;
-}
-.cust-link {
-  transition-property: color, border-color;
-  transition-duration: var(--time-transition);
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  width: 100%;
-  height: 100%;
-  border: 1px solid var(--border-customer);
-  color: var(--border-customer);
-  border-radius: 4px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.cust-link:hover,
-.cust-link:focus {
-  color: var(--success-customer);
-  border-color: var(--success-customer);
-}
 /* ФУТЕР */
 .basement {
   background-color: var(--clr-base-hero-ftr);

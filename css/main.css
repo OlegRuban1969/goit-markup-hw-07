@@ -721,7 +721,10 @@
   outline: none;
   cursor: pointer;
 }
-
+.modal-user-btn:hover, .modal-user-btn:focus {
+  color: var(--hero-color);
+  background-color: var(--clr-btn-hero-h-f);
+}
 .feature {
   padding-top: 96px;
   padding-bottom: 96px;
@@ -925,3 +928,76 @@
 .team-scl-icon {
   fill: var(--clr-base);
 }
+
+.cust-name {
+  margin-bottom: 72px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--clr-txt-sec-title);
+}
+
+@media screen and (max-width: 767px) {
+  .customers {
+    padding: 96px 0;
+  }
+ .cust-ul {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    row-gap: 72px;
+    justify-content: center;
+  }
+  .cust-list {
+    min-width: 168px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .customers {
+    padding: 120px 0;
+  }
+  .cust-ul {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+}
+  .cust-icon {
+    fill: currentColor;
+  } 
+
+@media screen and (min-width: 1200px) {
+  .cust-list {
+    margin-right: 24px;
+    width: calc((100% - 5 * 24px) / 6);
+    height: 88px;
+  }
+  .cust-list:nth-child(6) {
+    margin-right: 0;
+  }
+}
+
+.cust-link {
+  transition-property: color, border-color;
+  transition-duration: var(--time-transition);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--border-customer);
+  color: var(--border-customer);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cust-link:hover,
+.cust-link:focus {
+  color: var(--success-customer);
+  border-color: var(--success-customer);
+}
+
