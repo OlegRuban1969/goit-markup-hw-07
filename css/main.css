@@ -1051,3 +1051,14 @@
   letter-spacing: 0.02em;
   color: var(--text-footer);
 }
+
+.text-media {
+  margin-bottom: 16px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--clr-base);
+}
