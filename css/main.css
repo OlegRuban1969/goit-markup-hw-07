@@ -1013,14 +1013,13 @@
     padding: 96px 0;
   }
   .basement > .container {
-    justify-content: center;
+    display: flex;
     flex-wrap: wrap;
-  }
+    justify-content: center;
+    row-gap: 72px;
+   }
 }
-.container {
-  display: flex;
-  row-gap: 72px;
-}
+
 .footer-first {
   max-width: 264px;
 }
