@@ -1,36 +1,5 @@
-/* logo футер  Studio*/
-.logo-footer {
-  color: var(--clr-logoftr-base-team);
-}
 
-/* ФУТЕР */
-.basement {
-  background-color: var(--clr-base-hero-ftr);
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-.container-ftr {
-  display: flex;
-}
-.text-footer {
-  margin-top: 16px;
-  max-width: 264px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--text-footer);
-}
-.logo-basement {
-  display: inline-block;
-  font-family: 'Raleway';
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.333;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: var(--text-logo-base-btn-hero);
-}
+
 .footer-second {
   margin-left: 120px;
 }
