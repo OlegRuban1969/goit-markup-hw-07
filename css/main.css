@@ -1012,17 +1012,47 @@
     background-color: var(--clr-base-hero-ftr);
     padding: 96px 0;
   }
+}
+
+@media screen and (min-width: 768px) {
+  .basement {
+    background-color: var(--clr-base-hero-ftr);
+    padding: 96px 0;
+  }
+}
+
   .basement > .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     row-gap: 72px;
    }
+@media screen and (min-width: 768px) {  
+   .basement > .container {
+   column-gap: 24px;
+   flex-wrap: wrap;
+   }
+  }
+
+@media screen and (min-width: 768px) {
+  text-media {
+    display: block;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+footer-second {
+    margin: 0;
+    text-align: center;
+    min-width: 208px
+}
 }
 
 .footer-first {
   max-width: 264px;
 }
+
 .logo-basement {
   display: block;
   font-family: 'Raleway';
@@ -1031,19 +1061,20 @@
   line-height: 1.333;
   text-transform: uppercase;
   text-decoration: none;
-  text-align: center;
+  text-align: start;
   color: var(--text-logo-base-btn-hero);
 }
 .logo-footer {
   color: var(--clr-logoftr-base-team);
 }
 @media screen and (max-width: 767px) {
-  .basement .logo-basement {
-    text-align: center;
+  .logo-basement {
     padding: 0;
     margin-bottom: 16px;
+    text-align: center;
   }
 }
+
 .text-footer {
   font-weight: 500;
   font-size: 16px;
@@ -1057,8 +1088,131 @@
   text-align: center;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--clr-base);
+}
+
+.media-ul {
+  display: flex;
+}
+.media-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16px;
+}
+.media-list:nth-child(4) {
+  margin-right: 0;
+}
+.media-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-property: background-color;
+  transition-duration: var(--time-transition);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.media-link:hover,
+.media-link:focus {
+  background-color: var(--succsess-green);
+}
+.media-icon {
+  fill: var(--clr-base);
+}
+
+@media screen and (min-width: 768px) {
+.footer-third {
+  display: block;
+ }
+}
+@media screen and (min-width: 1200px) {
+.footer-third {
+  margin-left: 80px;;
+}
+}
+.footer-btn {
+  position: relative;
+  padding: 8px 64px 8px 24px;
+  margin-left: 24px;
+  gap: 16px;
+  width: 165px;
+  height: 40px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var( --clr-base);
+  background-color: var(--back-team-social);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer; 
+}
+.footer-btn-icon {
+  position: absolute;
+  top: 10px;
+  right: 24px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-form {
+  margin-top: 0em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 16px;
+  column-gap: 24px;
+  }  
+}
+
+@media screen and (min-width: 768px) {
+.footer-form {
+  display: flex;
+  }
+}
+
+@media screen and (max-width: 767px) {
+.footer-form-input {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-form-input {
+    width: 264px;
+  }
+}
+
+.footer-form-input {
+  padding: 8px 16px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2.0x;
+  letter-spacing: 0.04em;
+  font-family: inherit;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-third-title {
+  text-align: center;
+  }
+}
+
+.footer-third-title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var( --clr-base);
 }
