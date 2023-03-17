@@ -510,7 +510,6 @@
   color: var(--hero-color);
   background-color: var(--clr-btn-hero-h-f);
 } 
-
 /* Модальное окно */
 .backdrop {
   position: fixed;
