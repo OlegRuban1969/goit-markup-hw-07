@@ -337,7 +337,7 @@
   transition-duration: var(--time-transition);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
   font-style: normal;
   text-decoration: none;
@@ -355,12 +355,13 @@
  }
    .addr-item:last-child {
     margin-top: 12px;
+    margin-bottom: 16px;
  }
   .addr-item>.link {
     font-weight: 400;
     font-style: normal;
     font-size: 12px;
-    line-height: 1.33;
+    line-height: 1.17;
     letter-spacing: 0.04em;
  }
 }
