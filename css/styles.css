@@ -375,6 +375,7 @@
 .addr-item:first-child,
 .addr-item:last-child {
     margin-top: 0;
+    margin-bottom: 0;
  }
 }
   
