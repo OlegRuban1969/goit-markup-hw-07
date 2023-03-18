@@ -1013,19 +1013,17 @@
   border-color: var(--success-customer);
 }
 
-@media screen and (max-width: 767px) {
+.basement {
+  background-color: var(--clr-base-hero-ftr);
+  padding: 96px 0;
+}
+
+@media screen and (min-width: 1200px) {
   .basement {
-    background-color: var(--clr-base-hero-ftr);
-    padding: 96px 0;
+    padding: 100px 0;
   }
 }
 
-@media screen and (min-width: 768px) {
-  .basement {
-    background-color: var(--clr-base-hero-ftr);
-    padding: 96px 0;
-  }
-}
 
   .basement > .container {
     display: flex;
@@ -1033,26 +1031,43 @@
     justify-content: center;
     row-gap: 72px;
    }
+
 @media screen and (min-width: 768px) {  
    .basement > .container {
-   column-gap: 24px;
-   flex-wrap: wrap;
-   }
+      column-gap: 24px;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      padding-left: 108px;
+    }
   }
 
+ @media screen and (min-width: 1200px) {
+  .basement > .container {
+    padding-left: 0;
+  }
+}
+
 @media screen and (min-width: 768px) {
-  text-media {
+  .text-media {
     display: block;
     text-align: left;
   }
 }
 
 @media screen and (max-width: 1199px) {
-footer-second {
+  .footer-second {
     margin: 0;
-    text-align: center;
     min-width: 208px
 }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-second {
+    margin-left: auto;
+  }
+  .text-media {
+    text-align: start;
+  }
 }
 
 .footer-first {
@@ -1061,6 +1076,7 @@ footer-second {
 
 .logo-basement {
   display: block;
+  margin-bottom: 16px;
   font-family: 'Raleway';
   font-weight: 800;
   font-size: 18px;
@@ -1076,7 +1092,6 @@ footer-second {
 @media screen and (max-width: 767px) {
   .logo-basement {
     padding: 0;
-    margin-bottom: 16px;
     text-align: center;
   }
 }
