@@ -118,12 +118,7 @@
     color: var(--text-logo-header);
   }
 
-  .site-nav {
-    display: flex;
-    margin-left: 76px;
-  }
-
-  @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .site-nav {
       display: none;
     }
@@ -133,11 +128,19 @@
     .nav-item:not(:first-child) {
      margin-left: 40px;
    }
+   .site-nav {
+    display: flex;
+    margin-left: 120px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .addr-item:not(:first-child) {
   margin-left: 40px;
  }
+ .site-nav {
+  display: flex;
+  margin-left: 76px;
+}
 }
 
   .site-nav .link {
@@ -297,6 +300,10 @@
 .menu-contacts .maillink:focus {
   color: var(--clr-header-h-f);
 }
+.menu-nav {
+  margin-bottom: 20px;
+}
+
 .mobteam-scl-list {
   display: flex;
   justify-content: center;
@@ -1247,6 +1254,12 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
 }
+
+.footer-form-input:hover,
+.footer-form-input:focus {
+  border-color: var(--clr-base);
+}
+
 
 @media screen and (max-width: 767px) {
   .footer-third-title {
