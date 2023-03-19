@@ -397,7 +397,7 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  max-width: 1440px;
   padding: 112px 0;
   background-position: center;
   background-repeat: no-repeat;
@@ -1254,12 +1254,6 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
 }
-
-.footer-form-input:hover,
-.footer-form-input:focus {
-  border-color: var(--clr-base);
-}
-
 
 @media screen and (max-width: 767px) {
   .footer-third-title {
